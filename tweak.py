@@ -117,6 +117,10 @@ for a in range(len(fil)-1):
 
                             
 
+with open('newaccuracy.txt' , 'w') as f:
+    for items in x:
+        f.write("%s\n"%items)
+        
 
 
 
