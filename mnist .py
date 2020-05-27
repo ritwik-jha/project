@@ -159,8 +159,10 @@ accuracy=score[1]
 
 # In[ 34]:
 
-print(accuracy)
 
+file1 = open('accuracy.txt' , 'w')
+file1.write(accuracy)
+file1.close()
 
 
 
