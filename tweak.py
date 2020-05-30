@@ -114,12 +114,20 @@ for a in range(len(fil)-1):
                                   'neuron_no.1= '+unit1[e],'neuron_no.2= '+unit2[f]
                                  ,'neuron_no.3= '+ unit3[g]))
 
+accuracy=[]                       
+for i in range(len(x)-1):
+    accuracy.append(x[i][0])
 
-                            
+max_accuracy = max(accuracy)
 
-with open('newaccuracy.txt' , 'w') as f:
-    for items in x:
-        f.write("%s\n"%items)
+    
+for i in range(len(x)-1):
+    if x[i][0] = max_accuracy:
+        with open('newaccuracy.txt' , 'w') as f:
+            for items in x[i]:
+                f.write("%s\n"%items)
+    else:
+        pass
         
 
 
