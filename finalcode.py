@@ -55,8 +55,6 @@ score=model.evaluate(X_train , y_train)
 accuracy=score[1]
                            
 
-accuracy=[]                       
-for i in range(len(x)-1):
-    accuracy.append(x[i][0])
+print(accuracy)
 
 
